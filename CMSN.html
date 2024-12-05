@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chúc mừng sinh nhật vợ yêu </title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #ffe4e1;
+      color: #5a2d3b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      background: #fff0f5;
+      padding: 30px 20px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 800px;
+    }
+
+    .heart {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: #ff6f91;
+      margin: 0 auto 20px;
+      transform: rotate(-45deg);
+      animation: heartbeat 1s infinite ease-in-out;
+    }
+
+    .heart:before,
+    .heart:after {
+      content: '';
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background-color: #ff6f91;
+      border-radius: 50%;
+    }
+
+    .heart:before {
+      top: -50px;
+      left: 0;
+    }
+
+    .heart:after {
+      left: 50px;
+      top: 0;
+    }
+
+    @keyframes heartbeat {
+      0%, 100% {
+        transform: scale(1) rotate(-45deg);
+      }
+      50% {
+        transform: scale(1.2) rotate(-45deg);
+      }
+    }
+
+    .message {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .message .highlight {
+      font-weight: bold;
+      color: #e63946;
+    }
+
+    .signature {
+      margin-top: 20px;
+      font-style: italic;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #7d4755;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="heart"></div>
+    <h1>Chúc mừng sinh nhật vợ yêu ❤️</h1>
+    <div class="message">
+      Hố le hé lô, hòa vào bầu không khí vui tươi, phấn khởi, người người hân hoan, hào hứng đón chờ một sinh linh, 
+      một thiên thần nhỏ bé mang tên <span class="highlight">Đoàn Thụy Ngọc Hân</span> chào đời. Thoắt đó đã 16 năm, 
+      từ một em bé nay đã lớn, đã trưởng thành như một thiếu nữ, từ những tiếng khóc đầu tiên như lời chào đối với thế giới 
+      nay đã phát triển thành tiếng chửi, tiếng chê anh mỗi ngày :&lt;. Hôm nay là sinh nhật em, cũng là kỉ niệm 16 năm ngày 
+      em say hi với thế giới này, anh – với cương vị của một thằng dỡ văn thích lòng vòng, chúc vợ iu của anh không chỉ ngày 
+      hôm nay mà còn những ngày sau đó nữa, sẽ là những ngày hạnh phúc với nụ cười luôn nở trên môi. Chúc bé tuổi mới tràn đầy 
+      năng lượng, luôn tích cực và đầy sự nhiệt huyết để chinh phục những khó khăn trong cuộc sống (có tui trong đó nkaaaaa ^^). 
+      Chúc cục vàng ngày càng xinh đẹp, giỏi giang, đảm đang, tháo vát. Chúc em mọi điều tốt đẹp nhất mà đẹp nhất là tui nên tui 
+      chúc tui ngày càng ẹp zai :&gt;&gt;&gt; . Đã có nhiều lúc hờn dỗi, đã có nhiều cuộc cãi vã, chúc cho 2 mình sẽ hiểu nhau hơn, 
+      sẽ ít đi những lần cãi nhau, ít đi những lần cạch mặt không thèm nhìn tới, sẽ chỉ là những kỉ niệm, những phút giây thật hạnh phúc…
+    </div>
+    <div class="signature">Ký tên,<br>Tui là chồng mà bị chửi là chó -Lê Hoàng Bảo-</div>
+    <h3>❤️ Yêu em ❤️</h3>
+  </div>
+  <footer></footer>
+</body>
+</html>
